@@ -15,11 +15,12 @@ body{
 }
 header{
     background-image: url(../assets/images/bg.jpg);
+    max-width: 1440px;
     min-width: 1440px;
     margin: auto;
 }
 .container{
-    min-width: 1440px;
+    max-width: 1440px;
     margin: auto;
 }
 .color:hover {
@@ -167,6 +168,8 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
+    max-height: 1145px;
+    min-width: 1400px;
 }
 .Video-heading__videolaunch{
     min-width: 1400px;
@@ -248,8 +251,8 @@ h6{
     color: #ffffff;
 }
 .Contact{
-    min-height: 700px;
-    min-width: 1440px;
+    height: 700px;
+    width: 1440px;
     background-image: url(../assets/images/contacts.jpg);
     background-repeat: no-repeat;
     margin: 100px 0px 0px 0px;
@@ -308,12 +311,16 @@ h6{
     color:#ffffff;
 }
 footer{
-    min-width: 150px;
+    min-width: 1400px;
     color: rgb(255, 255, 255);
 }
 .footer__MUPK{
     display: flex;
     justify-content: space-between;
+}
+.footer-MUPK__div{
+    height: 50px;
+    width: 188px;
 }
 .footer-MUPK__picture{
     justify-content: flex-end;
